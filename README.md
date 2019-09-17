@@ -1,5 +1,3 @@
-# pca-clustering-app
-
 # ML Clustering Web App 
 
 # Version: 1.3
