@@ -1,8 +1,8 @@
 # pca-clustering-app
 
-# Market Selecting For Media Testing  
+# ML Clustering Web App 
 
-# Version: 1.0
+# Version: 1.3
 
 Shiny app that brings a data file in, performs PCA and then performs K means 
 custering based on the set of variables that explain most of the data, and allows 
