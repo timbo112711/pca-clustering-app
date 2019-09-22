@@ -2,8 +2,7 @@
 ## Verison 1.3
 ## Shiny app that brings a data file in, performs K means custering, and allows the user plot/download the 
 ## clustered data. This app can also perform PCA to help reduce the amount of variables in a given dataset. 
-## There is an option to weight the variables based on how important they are. This requires the clients business 
-## data and the users business logic to pick the best business variables in order to get the best market tiers.
+## There is an option to weight the variables based on how important they are.
 ## Needed Lib's
 library(shiny)
 library(ggplot2)
