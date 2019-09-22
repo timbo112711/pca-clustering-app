@@ -2,8 +2,7 @@
 ## Verison 1.3
 ## Shiny app that brings a data file in, performs K means custering, and allows the user plot/download the 
 ## clustered data. This app can also perform PCA to help reduce the amount of variables in a given dataset. 
-## There is an option to weight the variables based on how important they are. This requires the clients business 
-## data and the users business logic to pick the best business variables in order to get the best market tiers.
+## There is an option to weight the variables based on how important they are.
 ## Needed Lib's
 library(shiny)
 library(plotly)
@@ -68,7 +67,6 @@ shinyUI(
       p("2. Pick the columns you want to create the groupings off of via the drop-downs"),
       p("3. Indicate the weight of each column via the sliders. 1 being the most important and 0 being the least important "),
       p("4. Indicate the desired number of groups via the slider."),
-      img(src='Harmelin_Media_Logo.png', height="80%", width="80%", align = "center")),
     ## The main panel where all the shit happens 
     mainPanel(
       # Make it so errors don't show in app, only in logs
