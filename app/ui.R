@@ -73,13 +73,6 @@ shinyUI(
       tags$style(type="text/css",
                ".shiny-output-error { visibility: hidden; }",
                ".shiny-output-error:before { visibility: hidden; }"),
-      # Add in a back button to the Briefcase page that go the user here
-      div(style = "position:absolute;right:1em;", 
-          actionButton(inputId='ab1', label="back", 
-                       icon = icon("back"), 
-                       style="color: #fff; background-color: #337ab7; border-color: #2e6da4",
-                       onclick = "location.href='https://briefcase.harmelin.com/harmelin';")
-          ),
       ## Tabs
       textOutput("text"),
       # Create the tabs (total of 3 tabs)
