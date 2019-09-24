@@ -82,13 +82,6 @@ shinyUI(
                            p("- Your client wants to group markets into similar groups based on the clients business data."),
                            p("- Your client wants to group the offices or stores into similar groups."),
                            p("- Your client wants to create 'Tiers' of markets in order to gauge their business performance."),
-                           h2("Requirements"),
-                           p("- Your data must be broken out by market or by office/store."),
-                           p("- You must have a minimum of 10 markets or offices/stores."),
-                           p("- Below is an example of what your data can look like."),
-                           # Bring in the images for explainantion
-                           img(src='data.png', 
-                               align = "center"),
                            h2("Want To Know More About Grouping (Clustering)?"),
                            p("This method uses what is called the K-means clustering algorithm. This is a versatile algorithm that can be 
                              used for any type of grouping. When used, it will find groups which have not been explicitly labeled in the 
